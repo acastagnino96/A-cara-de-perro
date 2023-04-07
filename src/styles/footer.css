@@ -1,0 +1,57 @@
+.footers{
+    width: 100%;
+    min-height: 361px;
+    background-color: #50D32D;
+    flex-wrap: wrap;
+}
+
+.footers h1{    
+    font-family: 'Manrope';
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 27px;
+    color: #1F1D1B !important;
+}
+
+.footers p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1F1D1B;
+}
+
+.logoMarca{
+    margin-top: 70px;
+    height: 223px;
+    margin-inline: 132px;
+}
+
+.sucursales{
+    margin-right: 74px;
+    margin-top: 56px;
+    min-width: 200px;
+}
+
+.sucursales img{
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+.redesSociales{
+    margin-right: 74px;
+    margin-top: 56px;
+}
+
+.redesSociales a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #1F1D1B !important;
+}
+
+.redesSociales a img{
+    padding-right: 10px;
+}
+
