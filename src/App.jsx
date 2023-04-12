@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Products from "./components/products";
 import Hairstyle from "./components/hairstyle";
 import TextControlsExample from "./Components/contact";
+import Us from "./Components/us";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Products />} />
+          <Route path="/us" element={<Us />} />
           <Route path="/products" element={<Products />} />
           <Route path="/hairstyle" element={<Hairstyle />} />
           <Route path="/contact" element={<TextControlsExample />} />          

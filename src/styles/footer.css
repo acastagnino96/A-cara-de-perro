@@ -32,7 +32,7 @@
 .sucursales{
     margin-right: 74px;
     margin-top: 56px;
-    min-width: 200px;
+    max-width: 400px;
 }
 
 .sucursales img{
@@ -55,3 +55,25 @@
     padding-right: 10px;
 }
 
+
+/* Responsive */
+
+@media (max-width: 756px) {
+    .footers {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoMarca{
+        margin-top: 50px;
+        margin-inline: auto;
+    }
+
+    .sucursales{
+        margin-inline: 30px;
+    }
+
+    .redesSociales{
+        margin-bottom: 50px;
+    }
+}

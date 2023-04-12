@@ -1,0 +1,37 @@
+.usBox{
+    width: 1090px;
+    border-radius: 10px;
+    margin-inline: auto;
+    margin-top: 76px;
+    display: flex;
+    margin-bottom: 76px;
+    flex-wrap: wrap;
+}
+
+.usBox img{
+    width: 50%;
+    border-radius: 10px;
+    height: 50%;
+}
+
+.textUs{
+    max-width: 50%;
+    font-family: 'Manrope';
+    color: #1F1D1B;
+    padding-left: 60px;
+}
+
+.textUs h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 20px;
+}
+#textDescription{
+    font-size: 16px;
+}
+
+.textUs p{
+    font-size: 16px;
+    line-height: 20px;
+}
