@@ -1,0 +1,124 @@
+.textoPets h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    color: #1F1D1B;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+.textoPets p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1F1D1B;
+    text-align: center;
+    margin-inline: 25%;
+    margin-bottom: 60px;
+}
+
+.petsCategorys{
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.petsCategorys img{
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.perroDePelu{
+    background-color: #D8F1F5;
+    margin-inline: 10%;
+    margin-top: 76px;
+    min-height: 300px;
+    max-width: 1090px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.perroDePelu img{
+    height: 238px;
+    width: auto;
+}
+
+.sacaTurno{
+    width: 60%;
+    padding-left: 50px;
+}
+
+.sacaTurno h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1F1D1B;
+    padding-bottom: 20px;
+}
+
+.sacaTurno p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1F1D1B;
+}
+
+.sacaTurno .btn{
+    margin-top: 40px;
+    margin-inline: auto;
+    width: 226px;
+    height: 45px;
+    background-color: #50D32D;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btnHoverTurno:hover{
+    background-color: #50D32D;
+    color: #1F1D1B;
+}
+
+.petsProducts{
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+.petsProducts img{
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 756px) {
+    .perroDePelu{
+        margin-inline: 20px;
+    }
+    .sacaTurno{
+        width: 80%;
+        padding-left: 0px;
+    }
+    .sacaTurno .btn{
+        margin-bottom: 30px;
+    }
+}

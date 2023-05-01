@@ -8,8 +8,6 @@
     font-family: 'Manrope';
     font-size: 16px;
     margin-top: 10px;
-    position: absolute;
-    right: 120px;
 }
 
 .menuInicio .linkTodos{
@@ -34,4 +32,23 @@
 
 #logoDescription{
     font-size: 11px;
+}
+
+@media (max-width: 756px) {
+    .logoTexto{
+        display: none;
+    }
+}
+
+/* Responsive */
+@media (max-width: 990px) {
+    .linkTodos:hover{
+    background-color: #50D32D;
+    }
+}
+@media (min-width: 990px) {
+    .menuInicio{
+        position: absolute;
+        right: 8%;
+    }
 }

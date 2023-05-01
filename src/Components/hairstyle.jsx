@@ -9,6 +9,7 @@ export default function Hairstyle() {
                     <h2>¡Estilo para tu mascota!</h2>
                     <p>“La peluquería es el arte de destacar la belleza única de cada perro generando trazos de creatividad en cada línea, resaltando las virtudes y destacando sus cualidades, brindando bienestar y salud”</p>
                 </div>
+                <img src="../src/assets/fotopelu.jpg" alt="" />
             </div>
             <div className="hairService">
                 <div className="textService">

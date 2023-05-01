@@ -60,3 +60,22 @@
     background-color: #50D32D;
     color: #1F1D1B;
 }
+
+@media (max-width: 756px) {
+    .formContact{
+        padding-inline: 10%;
+    }
+    .mapBox{
+        margin: auto;
+    }
+    iframe{
+        max-width: 300px;
+    }
+    .formContactBox{
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .contactanos{
+        margin-inline: 10%;
+    }
+}

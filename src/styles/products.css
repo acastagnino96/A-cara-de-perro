@@ -1,0 +1,25 @@
+.allProducts{
+    margin: 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1F1D1B;
+    padding-top: 30px;
+}
+
+li{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1F1D1B;
+}

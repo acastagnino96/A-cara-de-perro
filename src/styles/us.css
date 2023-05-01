@@ -1,5 +1,5 @@
 .usBox{
-    width: 1090px;
+    max-width: 1090px;
     border-radius: 10px;
     margin-inline: auto;
     margin-top: 76px;
@@ -12,6 +12,7 @@
     width: 50%;
     border-radius: 10px;
     height: 50%;
+    margin-inline: auto;
 }
 
 .textUs{
@@ -29,9 +30,23 @@
 }
 #textDescription{
     font-size: 16px;
+    line-height: 20px;
 }
 
 .textUs p{
     font-size: 16px;
     line-height: 20px;
+}
+
+@media (max-width: 1000px) {
+    .usBox img{
+        width: 80%;
+        margin-bottom: 60px;
+    }
+    .textUs{
+        max-width: 80%;
+        padding-left: 0px;
+        text-align: center;
+        margin-inline: auto;
+    }
 }

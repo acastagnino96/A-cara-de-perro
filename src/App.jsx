@@ -2,6 +2,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Whatsapp from "./Components/whatsapp";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Components/home";
 import Products from "./components/products";
 import Hairstyle from "./components/hairstyle";
 import TextControlsExample from "./Components/contact";
@@ -15,7 +16,7 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Products />} />
+          <Route path="/" element={<Home />} />
           <Route path="/us" element={<Us />} />
           <Route path="/products" element={<Products />} />
           <Route path="/hairstyle" element={<Hairstyle />} />

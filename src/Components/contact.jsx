@@ -6,11 +6,11 @@ import Iframe from 'react-iframe';
 function TextControlsExample() {
   return (
     <>
-        <div className="formContact w-100 d-flex">
-            <div className="mapBox w-50">
-            <Iframe src="https://www.google.com/maps/embed/v1/place?q=A+Cara+de+Perro, Malvinas+1361,+B1842+Monte+Grande,+Provincia+de+Buenos+Aires,+Argentina&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" width="463" height="454" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></Iframe>
+        <div className="formContact w-100 d-flex flex-wrap-reverse justify-content-around">
+            <div className="mapBox w-lg-50 w-sm-100">
+                <Iframe src="https://www.google.com/maps/embed/v1/place?q=A+Cara+de+Perro, Malvinas+1361,+B1842+Monte+Grande,+Provincia+de+Buenos+Aires,+Argentina&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" width="463" height="454" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></Iframe>
             </div>
-            <Form className="w-50">
+            <Form className="formContactBox w-lg-50 w-sm-100">
                 <h2>Formulario de contacto</h2>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                 <Form.Label>Email</Form.Label>
