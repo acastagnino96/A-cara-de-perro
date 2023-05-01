@@ -1,10 +1,10 @@
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
+import Navbar from "./Components/navbar";
+import Footer from "./Components/footer";
 import Whatsapp from "./Components/whatsapp";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Components/home";
-import Products from "./components/products";
-import Hairstyle from "./components/hairstyle";
+import Products from "./Components/products";
+import Hairstyle from "./Components/hairstyle";
 import TextControlsExample from "./Components/contact";
 import Us from "./Components/us";
 
