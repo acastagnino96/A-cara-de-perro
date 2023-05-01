@@ -1,32 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/about", "destination": "/about-our-company.html" },
-    { "source": "/resize/:width/:height", "destination": "/api/sharp" },
-    {
-      "source": "/proxy/:match*",
-      "destination": "https://example.com/:match*"
-    },
-    {
-      "source": "/:path((?!uk/).*)",
-      "has": [
-        {
-          "type": "header",
-          "key": "x-vercel-ip-country",
-          "value": "GB"
-        }
-      ],
-      "destination": "/uk/:path*"
-    }
-        {
-      "source": "/dashboard",
-      "destination": "/login",
-      "has": [
-        {
-          "type": "cookie",
-          "key": "auth_token",
-          "missing": true
-        }
-      ]
-    },
-  ]
+  "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
 }
