@@ -9,7 +9,7 @@ export default function Hairstyle() {
                     <h2>¡Estilo para tu mascota!</h2>
                     <p>“La peluquería es el arte de destacar la belleza única de cada perro generando trazos de creatividad en cada línea, resaltando las virtudes y destacando sus cualidades, brindando bienestar y salud”</p>
                 </div>
-                <img src="../src/assets/fotopelu.jpg" alt="" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/a-cara-de-perro-5251e.appspot.com/o/fotopelu.jpg?alt=media&token=ee563224-3c59-4620-a0cd-8b0789d77e82" alt="" />
             </div>
             <div className="hairService">
                 <div className="textService">
@@ -30,7 +30,7 @@ export default function Hairstyle() {
                         </div>
                     </div>
                 </div>
-                <img src="../src/assets/fotopeludos.jpg" alt="peluqueria" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/a-cara-de-perro-5251e.appspot.com/o/fotopeludos.jpg?alt=media&token=f08eec81-3fb4-46ce-92db-2d80d47efdc7" alt="peluqueria" />
             </div>
         </section>
     )
